@@ -37,7 +37,10 @@ bounces, add_to_cart, orders and gross sales might be significant features. To s
 this assumption, correlation graph has been plotted to know the relationship between the
 columns. Below is the correlation plot for the features visits, new_customer, orders, distinct
 sessions, gross_sales, product_page_views, search_page_views and Bounces
-[picture]
+
+<img width="1088" alt="Correlation" src="https://github.com/harikakanakam/Website-Analytics-of-a-company/assets/113376852/6c72d5a6-9184-427a-b29a-7d3b4219eb1c">
+
+
 The Observations from the scatterplot are as below:
 - The column ‘visits’ is correlated with maximum number of columns. But it is highly
 correlated with the columns ‘distinct_sessions’, ‘search_page_views’ and ‘bounces’
@@ -54,7 +57,9 @@ looks like increase in one value, increases the count on other value.
 The below dashboard shows the analytics of the significant features of each platform based on
 sites. It can be observed that users are using windows platform more than any other platforms
 and the site Acme is clearly the leading site.
-[picture]
+
+<img width="1085" alt="Visits Vs Distinct Sessions Vs Bounces Sales" src="https://github.com/harikakanakam/Website-Analytics-of-a-company/assets/113376852/9718d955-1ad3-4fd2-871a-30a23fbdc5be">
+
 
 Finally, it can be strongly inferred that there is not only one or two significant features of the
 provided dataset, but there are a group of 4-5 columns making significant features of the
@@ -62,8 +67,12 @@ provided dataset. These columns likely play a key role in understanding and anal
 for business insights and decision-making.
 
 #### Discover underperforming demographic segments:
-[picture]
-[picture]
+
+<img width="1087" alt="Platform's Average Rate" src="https://github.com/harikakanakam/Website-Analytics-of-a-company/assets/113376852/8cf8597d-72af-4ed8-9a20-e95a398c5c32">
+
+
+<img width="1093" alt="Site's Average Rate" src="https://github.com/harikakanakam/Website-Analytics-of-a-company/assets/113376852/7572a428-7301-4d95-a3cc-8c3d4608387b">
+
 
 The above 2 graphs help us to identify the underperforming demographic segments. To do this,
 I have created calculated fields for percentage rate for all the additional columns that are
@@ -84,7 +93,8 @@ percentage rates.
 
 #### Analyze the past and current trends:
 
-[picture]
+<img width="996" alt="Dashboard 2" src="https://github.com/harikakanakam/Website-Analytics-of-a-company/assets/113376852/3ed16d62-ca10-4e1f-962c-4bdc47b8bafa">
+
 
 From the day data it is clear that the data is from the year 2013 and there is no data for the
 months of March, April and May. Above is the dashboard of three plots including gross sales,
